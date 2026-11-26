@@ -9,9 +9,9 @@ public class Book {
         this.tacGia = tacGia;
     }
 
-    public String getTenSach() { return tenSach; }
+    public String getMaSach() { return maSach; }
 
     public void hienThi() {
-        System.out.println(maSach + " - " + tenSach + " - " + tacGia);
+        System.out.println("Chi tiet sach (Main): " + maSach + " - " + tenSach);
     }
 }
